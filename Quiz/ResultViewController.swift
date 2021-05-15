@@ -16,7 +16,15 @@ class ResultViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        resultLabel.text = "\(correctAnswer)"
+        if correctAnswer == 3{
+            resultLabel.text = "東大王レベル"
+        } else if correctAnswer == 2{
+            resultLabel.text = "クイズ全国大会レベル"
+        }else if correctAnswer == 1{
+            resultLabel.text = "パンピーレベル"
+        } else {
+            resultLabel.text = "寝てた？"
+        }
 
     }
     

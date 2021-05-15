@@ -28,7 +28,7 @@ class QuizViewController: UIViewController {
         
         //------------------------ここから下にクイズを書く------------------------//
         quizArray.append(["Life is Tech!のロゴTシャツにない色は？", "赤", "オレンジ", "黄色", 2])
-        quizArray.append(["問題文", "選択肢1", "選択肢2", "選択肢3", 1])
+        quizArray.append(["ミッキーの誕生日は？", "12/11", "11/18", "8/20", 2])
         quizArray.append(["ONE OK ROCKの新曲のタイトルは？", "registants", "renegades", "remake", 2])
         //------------------------ここから上にクイズを書く------------------------//
 
